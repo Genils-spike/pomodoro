@@ -1,0 +1,49 @@
+body{
+	background-color: #242424;
+	font-family: arial;
+	color: white;
+	text-align: center;
+}
+
+.pomodoro{
+	margin-top: 30vh;
+}
+
+h1{
+	margin-bottom: 45px;
+}
+
+.display{
+	font-size: 4em;
+}
+
+.timer{
+	display: inline-block;
+}
+
+button{
+	color : white;
+	font-size: 2em;
+	border-radius: 5px;
+	border-style: none;
+	padding: 5px 15px 5px 15px;
+	margin: 15px;
+}
+
+#play{
+	background-color: #5da423;
+}
+
+#stop{
+	background-color: #c60f13;
+}
+
+#pause{
+	background-color: #CF7600;
+}
+
+@media (max-width: 412px){
+	button{
+		width: 85vw	;
+	}
+}
